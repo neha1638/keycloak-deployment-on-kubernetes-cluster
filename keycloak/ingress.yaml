@@ -9,7 +9,7 @@ spec:
     - hosts:
       - keycloak
   rules:
-  - host: <DNS>
+  - host: <Public-DNS>
     http:
       paths:
        - path: /testpath
