@@ -18,6 +18,5 @@ spec:
           service:
             name: keycloak
             port:
-              number: 8080
-			
+              number: 8080			
 #kubectl apply -f ingress.yml
