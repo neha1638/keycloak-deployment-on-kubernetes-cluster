@@ -99,4 +99,4 @@ Since Keycloak by default work on port 8080, I have defined the target port as 8
         
        Master Public IP:NodePort
       
-![Screenshot (103)](https://user-images.githubusercontent.com/120181043/206724472-b36c881f-ce04-44bc-a21c-095a4c60562c.png)
+![Screenshot (103)](https://user-images.githubusercontent.com/120181043/206724852-1261f0bd-fe1e-420a-bda1-f0b1c750ecda.png)
