@@ -12,5 +12,4 @@ spec:
   selector:
     app: keycloak
   type: NodePort
-  
 #kubectl apply -f service.yml
