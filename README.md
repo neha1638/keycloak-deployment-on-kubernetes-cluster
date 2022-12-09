@@ -4,6 +4,8 @@
 This tutorial shows how to deploy a Keycloak to Kubernetes cluster.
 
 ## Keycloak Deployment
+![Adding authentication to keycloak in kubernetes](https://user-images.githubusercontent.com/120181043/206724316-f6b2ab2d-9897-4117-9f2f-372fba04affa.png)
+
 
 There are many ways through which we can deploy Keycloak.
 
@@ -92,3 +94,9 @@ Since Keycloak by default work on port 8080, I have defined the target port as 8
 - To check if the ingress is created or not, run below command.
 
       kubectl get ingress       
+      
+- Test if Keycloak is up and running on browser:
+        
+       Master Public IP:NodePort
+      
+![Screenshot (103)](https://user-images.githubusercontent.com/120181043/206724472-b36c881f-ce04-44bc-a21c-095a4c60562c.png)
