@@ -41,7 +41,7 @@ Minimum Requirements for Master: 2 CPU, 4 GB RAM, t2.Medium, ubuntu (20.04) Work
       sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 
       apt-get update
-      sudo apt-get install -y kubelet kubeadm kubectl kubernetes-cni
+      sudo apt-get install -qy kubelet=1.25.5-00 kubectl=1.25.5-00 kubeadm=1.25.5-00
       sudo swapoff -a 
       }
 
